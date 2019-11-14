@@ -8,14 +8,16 @@ public class Animal {
     public Animal() {
     }
 
-    public Animal(String name,int age ) {
+    public Animal(String name, int age) {
         this.age = age;
         this.name = name;
     }
-    public void run(){
+
+    public void run() {
         System.out.println("Animal can run!");
     }
-    public void say(){
+
+    public void say() {
         System.out.println("Animal say ...");
     }
 
